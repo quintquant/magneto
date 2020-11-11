@@ -14,7 +14,7 @@ Hannah R. Irons, Jorge Quintanilla, Toby G. Perring, Luigi Amico, and Gabriel Ae
 "Control of entanglement transitions in quantum spin clusters", 
 Phys. Rev. B 96, 224408 (2017). DOI:10.1103/PhysRevB.96.224408 (full text is freely available from the Kent Academic Repository at https://kar.kent.ac.uk/61595/).
 
-Please cite the above work if you use this software. Thank you!
+Please cite the above work too if you use this software. Thank you!
 
 For licensing information, see COPYING.
 
