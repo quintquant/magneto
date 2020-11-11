@@ -17,3 +17,21 @@ Phys. Rev. B 96, 224408 (2017). DOI:10.1103/PhysRevB.96.224408 (full text is fre
 Please cite the above work if you use this software. Thank you!
 
 For licensing information, see COPYING.
+
+REQUIREMENTS
+
+A working installation of Octave (the software has been tested on Octave 3.4.3; it should be easily adaptable for use with Matlab).
+
+INSTALLATION
+
+No installation required - just place the ".m" file in your working directory.
+
+USAGE
+
+Start Octave.
+
+Type the command
+
+ source "functions_PCA_current.m"
+
+This will make available a number of Octave functions. The usage of each of these functions is documented thorugh comments within the source code.
