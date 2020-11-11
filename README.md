@@ -2,7 +2,7 @@
 
 Octave functions to simulate diffuse magnetic neutron scattering from single-molecule magnets.
 
-The original version of this software was written by Hannah Irons as part of the PhD work under the supervision of Jorge Quintanilla. Further development was carried out by Jorge Quintanilla as aprt of a collaboration with Stuart Gibson and Robert Twyman. 
+The original version of this software was written by Hannah Irons as part of the PhD work under the supervision of Jorge Quintanilla. This was part of a collaboration with Luigi Amico, Toby Perring and Gabriel Aeppli. Further development was carried out by Jorge Quintanilla as part of a subsequent collaboration with Stuart Gibson and Robert Twyman. 
 
 You can cite this code using the following DOI:
 
