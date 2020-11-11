@@ -1,0 +1,51 @@
+{
+    "description": "Software to simulate diffuse magnetic neutron scattering from single-molecule magnets", 
+    "license": "other-open", 
+    "title": "quintquant/magneto: Initial public release", 
+    "version": "v0.9", 
+    "upload_type": "software", 
+    "publication_date": "2020-11-11", 
+    "creators": [
+        {
+            "affiliation": "University of Kent", 
+            "name": "Hannah R Irons"
+        },
+        {
+            "affiliation": "University of Kent", 
+            "name": "Jorge Quintanilla"
+        },
+        {
+            "affiliation": "University of Kent", 
+            "name": "Stuart Gibson"
+        },
+        {
+            "affiliation": "University of Kent", 
+            "name": "Robert Twyman"
+        },
+        {
+            "affiliation": "University of Catania", 
+            "name": "Luigi Amico"
+        },
+        {
+            "affiliation": "ISIS Facility, STFC Rutherford Appleton Laboratory", 
+            "name": "Toby G Perring"
+        },
+        {
+            "affiliation": "University College, London", 
+            "name": "Gabriel Aeppli"
+        }
+    ], 
+    "access_right": "open", 
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/quintquant/magneto/tree/v0.9", 
+            "relation": "isSupplementTo"
+        }, 
+        {
+            "scheme": "doi", 
+            "identifier": "10.5281/zenodo.4267893", 
+            "relation": "isVersionOf"
+        }
+    ]
+}
