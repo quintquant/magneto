@@ -6,7 +6,7 @@ The original version of this software was written by Hannah Irons as part of the
 
 You can cite this code using the following DOI:
 
-[![DOI](https://zenodo.org/badge/258335804.svg)](https://zenodo.org/badge/latestdoi/258335804)
+[![DOI](https://zenodo.org/badge/258335803.svg)](https://zenodo.org/badge/latestdoi/258335803)
 
 The model and method the code implements are described in
 
