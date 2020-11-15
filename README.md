@@ -47,7 +47,9 @@ N=6;Gamma=0.5;Delta=0.0;h=0.0;T=0.1;q_max=3*pi;Nk=8;
 This means that we will be calculating the diffuse mangetic neutron scattering function *S*(**q**) for a planar molecule with `N=6` magnetic atoms, each interacting with its two nearest neighbours with an interaction of strength *J*, which we are using as our unit of energy, whose anisotropy is described by the parameters `Gamma` and `Delta`. There is no applied field (`h=0`) and the temperature is `T=0.1` (in units of *J*).
 
 To compute *S*(**q**) we will use the function `gen_pic_mat`. This function assumes a ring-shaped molecule on the *x*-*y* plane, with all `N` (assumed even) magnetic atoms placed at the same distance from the origin of coordinates. The first atom is placed at an angle φ/2 to the vertical axis, where φ=2π/N is the angular distance between adjacent atoms (`gen_pic_mat` measures all distances in units of the distance *a* between nearest-neighbour atoms, as shown in the plot):
+
 ![Plot of atomic positions](/r_vec_comparison_v02.png)
+
 The function assumes that the scattering vector **q**=(*q*<sub>x</sub>,*q*<sub>y</sub>) is within the plane of the molecule and that any applied field is perpendicular to that plane (in our case, though, the applied field is zero).
 
 The parameters `q_max` and `Nk` specify the values of **q** for which *S*(**q**) will be evaluated: *q*<sub>x</sub>, which is measured in units of 1/*a*, will take `2*Nk=16` values between `-q_max` and `q_max`, inclusive, giving a `16 x 16 = 256`-pixel image (much higher resolutions are of course possible, but in this example we are trying to keep the output files deliberately small).
@@ -87,14 +89,20 @@ Once there, it can easily be plotted, using, for instance, GNUplot:
 ```
 gnuplot> set pm3d; unset surface; unset key; set size ratio 1; set view map; splot "pic_mat_hires.dat" matrix
 ```
+
 ![Plot of neutron scattering function](/pic_mat.png)
+
 Alhtough in this example the resolution is low, we can just about appreciate the 6 anti-ferromagnetic scattering peaks. Note that GNUplot does not know the values of the *q*<sub>x</sub> and *q*<sub>y</sub> axes, as it has only been provided with an array containign values of *S*(**q**). In reality, the plot spans values of  *q*<sub>x</sub> and *q*<sub>y</sub> from -3π to 3π, in units of 1/*a*. For a publication-ready plot, we would need to tell GNUPLOT to re-label the axes appropriately.
 
 In this example we have ket the number of pixels in the image being calculated deliberately low so that the calculation would be practically instantaneous. One can get much prettier pictures by using higher values of `Nk`. For instance, setting `Nk=50` yields the following 2.5k-pixel image (the calculation took 38 seconds in the same system used above):
+
 ![Plot of neutron scattering function](/pic_mat_hires.png)
+
 If we change the field from `h=0.0` to `h=2.0` then the ground state changes to one with ferromagnetic alignment between the spins and the anti-ferromagnetic peaks are replaced with ferro-magnetic ones:
+
 ![Plot of neutron scattering function](/pic_mat_hires_hifield.png)
-This is related to an entanglement transition in this model - if you want to know more, you are pursue https://kar.kent.ac.uk/61595/.
+
+This is related to an entanglement transition in this model - if you want to know more, you can find it here: https://kar.kent.ac.uk/61595/.
 
 ## To do
 
