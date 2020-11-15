@@ -18,15 +18,15 @@ Please cite the above work too if you use this software. Thank you!
 
 For licensing information, see COPYING.
 
-REQUIREMENTS
+## Requirements
 
 A working installation of Octave (the software has been tested on Octave 3.4.3; the source code has comments explaining how it can be adapted for use on Matlab).
 
-INSTALLATION
+## Installation
 
-Copy the .m files to your working directory.
+Copy the .m files to your working directory. 
 
-USAGE
+## Usage
 
 cd to your working directory.
 
@@ -35,3 +35,11 @@ Start Octave.
 The new Octave functions will be available (their names are the same as the corresponding filenames, without the ".m").
 
 The usage of each of the functions is documented in comments within its source code.
+
+## To do
+
+* Provide usage example.
+* Make into a package.
+* Improve documentation.
+
+
