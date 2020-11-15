@@ -1,8 +1,3 @@
-# Chnage log
-* Provided usage example.
-* Further minor formatting improvements.
-* Added some to do's.
-
 # magneto
 
 Octave functions to simulate diffuse magnetic neutron scattering from single-molecule magnets.
