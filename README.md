@@ -26,6 +26,8 @@ A working installation of Octave (the software has been tested on Octave 3.4.3; 
 
 Copy the .m files to your working directory.
 
+(Alternatively, copy the .m files to a directory of your choice. In that case you need to use the addpath command within Octave to tell Octave where to look for the .m files.)
+
 ## Usage
 
 cd to your working directory.
